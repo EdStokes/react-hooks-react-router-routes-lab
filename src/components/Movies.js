@@ -9,7 +9,7 @@ function Movies() {
       <p>Time: {movie.time} minutes</p>
       <ul>
         {movie.genres.map((genre, index) => (
-          <li key={index}>genre</li>
+          <li key={index}>{genre}</li>
         ))}
       </ul>
     </div>
